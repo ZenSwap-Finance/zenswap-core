@@ -1,11 +1,11 @@
 {
-  "name": "ApeSwap-Core-Contracts",
-  "description": "🎛 Core contracts for the ApeSwap protocol",
+  "name": "@zenswap/core",
+  "description": "🎛 Core contracts for the ZenSwap protocol",
   "version": "0.1.0",
-  "homepage": "https://apeswap.finance",
+  "homepage": "https://zenswap.finance",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ApeSwapFinance/apeswap-swap-core"
+    "url": "https://github.com/ZenSwap-Finance/zenswap-core.git"
   },
   "scripts": {
     "ganache": "npx ganache-cli",
@@ -17,8 +17,8 @@
     "compile:truffle": "truffle compile",
     "migrate:testnet": "truffle migrate --network testnet",
     "migrate:dev": "truffle migrate --reset --network development",
-    "flatten": "truffle-flattener ./contracts/ApeFactory.sol --output ./ApeFactory_flat.sol && truffle-flattener ./contracts/ApePair.sol --output ./ApePair_flat.sol",
-    "verify:testnet": "truffle run verify ApeFactory --network testnet",
+    "flatten": "truffle-flattener ./contracts/ZenFactory.sol --output ./ZenFactory_flat.sol && truffle-flattener ./contracts/ZenPair.sol --output ./ZenPair_flat.sol",
+    "verify:testnet": "truffle run verify ZenFactory --network testnet",
     "pretest": "yarn compile",
     "test": "mocha",
     "prepublishOnly": "yarn test"

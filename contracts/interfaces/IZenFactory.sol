@@ -1,16 +1,16 @@
 pragma solidity >=0.5.0;
 
 /*
- * ApeSwapFinance 
- * App:             https://apeswap.finance
- * Medium:          https://medium.com/@ape_swap    
- * Twitter:         https://twitter.com/ape_swap 
- * Telegram:        https://t.me/ape_swap
- * Announcements:   https://t.me/ape_swap_news
- * GitHub:          https://github.com/ApeSwapFinance
+ * ZenSwap-Finance 
+ * App:             https://ZenSwap.Finance
+ * Medium:          https://medium.com/@ZenSwap    
+ * Twitter:         https://twitter.com/ZenSwapFinance 
+ * Telegram:        https://t.me/ZenSwap
+ * Announcements:   https://t.me/ZenSwap_News
+ * GitHub:          https://github.com/ZenSwap-Finance
  */
 
-interface IApeFactory {
+interface IZenFactory {
     event PairCreated(address indexed token0, address indexed token1, address pair, uint);
 
     function feeTo() external view returns (address);

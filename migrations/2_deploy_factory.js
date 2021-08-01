@@ -1,4 +1,4 @@
-const ApeFactory = artifacts.require("ApeFactory");
+const ZenFactory = artifacts.require("ZenFactory");
 
 module.exports = function (deployer, network, accounts) {
   let currentAccount = accounts[0]
@@ -6,5 +6,5 @@ module.exports = function (deployer, network, accounts) {
     console.warn('WARNING: Using account[1] for testnet')
     currentAccount = accounts[1]
   }
-  deployer.deploy(ApeFactory, currentAccount, {from: currentAccount});
+  deployer.deploy(ZenFactory, currentAccount, {from: currentAccount});
 };

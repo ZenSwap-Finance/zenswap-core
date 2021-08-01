@@ -1,13 +1,13 @@
 pragma solidity >=0.5.0;
 
 /*
- * ApeSwapFinance 
- * App:             https://apeswap.finance
- * Medium:          https://medium.com/@ape_swap    
- * Twitter:         https://twitter.com/ape_swap 
- * Telegram:        https://t.me/ape_swap
- * Announcements:   https://t.me/ape_swap_news
- * GitHub:          https://github.com/ApeSwapFinance
+ * ZenSwapFinance 
+ * App:             https://ZenSwap.finance
+ * Medium:          https://medium.com/@zenswap    
+ * Twitter:         https://twitter.com/zenswap 
+ * Telegram:        https://t.me/zenswap
+ * Announcements:   https://t.me/zenswap_news
+ * GitHub:          https://github.com/ZenSwapFinance
  */
 
 interface IERC20 {
